@@ -3,6 +3,7 @@ FROM ubuntu:13.10
 RUN apt-get update && apt-get -y install less \
     uwsgi uwsgi-core uwsgi-plugin-python python-virtualenv python-dev
 
+ADD service /etc/minipaas
 ADD code /srv/autoincrement
 RUN virtualenv /srv/ve && /srv/ve/bin/pip install -r /srv/autoincrement/requirements.txt
 
