@@ -1,5 +1,7 @@
 FROM ubuntu:13.10
 
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN apt-get update && apt-get -y install less \
     uwsgi uwsgi-core uwsgi-plugin-python python-virtualenv python-dev
 

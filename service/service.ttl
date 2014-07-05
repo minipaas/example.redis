@@ -10,7 +10,7 @@
 
 <> a mini:Service;
     dc:title "Minipaas: Autoincrement"@en;
-    mini:storage "minipaas/plugins.redis";
+    mini:storage "minipaas/plugin.redis";
     mini:license [
         mini:licenseIdentifier "copyleft-next-0.3";
         foaf:homepage <https://raw.github.com/richardfontana/copyleft-next/master/Releases/copyleft-next-0.3.0>;
@@ -19,5 +19,5 @@
         dc:title "frob.nl"@en;
         foaf:homepage <https://frob.nl/>;
     ];
-    foaf:homepage <http://minipaas.org>;
+    foaf:homepage <https://minipaas.org>;
     foaf:logo "autoincrement.svg".
